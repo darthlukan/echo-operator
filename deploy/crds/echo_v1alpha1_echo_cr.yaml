@@ -1,0 +1,10 @@
+apiVersion: echo.rhte2019.io/v1alpha1
+kind: Echo
+metadata:
+  name: example-echo
+  namespace: echo-operator-dev
+spec:
+  message: "Hello Operators!"
+  namespace: "echo-operator-dev"
+  version: "latest"
+  replicas: 3
